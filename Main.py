@@ -7,7 +7,7 @@ root.title("Text-To-Speech")
 root.geometry("800x500")
 root.iconbitmap(r'favicon.ico')
 
-def talk:
+def talk():
     voice=pyttsx3.init()
     voice.say(input.get())
     voice.runAndWait()
